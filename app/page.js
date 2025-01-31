@@ -37,6 +37,7 @@ import {
   FaUsers,
   FaUserTie,
 } from "react-icons/fa";
+import { RainbowButton } from "@/components/ui/rainbow-button";
 
 const logos = [
   "/logos/one.svg",
@@ -468,9 +469,9 @@ export default function LandingPage() {
                   <ArrowRight className="ml-2 h-4 w-4" />
                 </Button> */}
                 <div className="flex justify-center mt-16">
-                  <PulsatingButton className="flex items-center">
+                  <RainbowButton className="flex items-center hover:opacity-80">
                     Start Your Journey Today{" "}
-                  </PulsatingButton>
+                  </RainbowButton>
                 </div>
               </Link>
             </motion.div>
